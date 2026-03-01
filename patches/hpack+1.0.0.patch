@@ -1,0 +1,10 @@
+diff --git a/node_modules/hpack/lib/dynamic_table.js b/node_modules/hpack/lib/dynamic_table.js
+index 1ca4b55..a8cb75e 100644
+--- a/node_modules/hpack/lib/dynamic_table.js
++++ b/node_modules/hpack/lib/dynamic_table.js
+@@ -1,4 +1,4 @@
+-var util = require('util');
++var util = require('node:util');
+ var Table = require('./table');
+ 
+ module.exports = DynamicTable;

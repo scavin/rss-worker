@@ -2,6 +2,9 @@ name = "rss-worker"
 main = "src/worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
+# Keep this for Wrangler 3 builds (such as CF GitHub integration environments)
+# so Node built-ins like "util" in CommonJS deps can still be resolved.
+node_compat = true
 
 # [build]
 # command = "npm run build"
